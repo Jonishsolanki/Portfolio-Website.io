@@ -32,6 +32,7 @@ body {
    // background-image:url('back2.jpg');
 }
 .page-footer{
+    width:105%
     position:center;
     padding-top:5px;
     color:black;
