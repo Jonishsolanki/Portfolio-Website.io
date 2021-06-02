@@ -1,0 +1,152 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {       
+    background-color:deepskyblue;
+    //background-image:url('back0.jpg');
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.navbar{
+
+    position:fixed;
+    background-color:cadetblue;
+}
+
+.services_area{
+    color:white;
+}
+.education-section {
+    padding-top:260px;
+    //padding: 50px;
+    text-align: center;
+    color: white;
+    padding-block-end:100px;
+  //  background-image: url('back1.jpg')
+}
+.projects-section {
+    padding-top:100px;
+    text-align: center;
+    color: white;
+    padding-bottom:350px;
+   // background-image:url('back2.jpg');
+}
+.page-footer{
+    position:center;
+    padding-top:5px;
+    color:black;
+    background-color:cadetblue;
+}
+.rounded-circle {
+    width:304px;
+    height:236px;
+}
+.img-thumbnail{
+    width:100px;
+    height:100px;
+}
+.contact {
+    text-align:center;
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+    font-weight:bold;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.about-me{
+
+}
+.btn:hover {
+    background-color: darkslategrey;
+}
+
+.btn:active {
+    background-color: deepskyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.img-thumbnail:hover {
+    background-color: black;
+}
+
+
+#profile {
+    position: relative;
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+    #profile:hover {
+        animation: scale 1s ease;
+    }
+
+#content {
+    padding-block-end:235px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    color:white;
+    padding-top:200px;
+}
+
+a {
+    color: inherit;
+    
+}
+
+    a:hover {
+        color: #03a9f4;
+    }
+
+.link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1.2);
+    }
+}
+#contactid{
+    padding-top:200px;
+    padding-bottom:250px;
+}
+
+
+
+body, html {
+    height: 100%;
+}
+
+.mparallax {
+    /* The image used */
+    //background-image: url('back0.jpg');
+    /* Full height */
+    height: 425%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card{
+    background-color:deepskyblue;
+}
+
+.card:hover {
+    background-color: dodgerblue;
+}
